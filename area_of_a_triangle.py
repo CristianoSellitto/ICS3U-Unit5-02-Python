@@ -26,7 +26,7 @@ def main():
         height_integer = int(height_text)
         calculate_triangle_area(base_integer, height_integer)
     except ValueError:
-        print("\nError: {} isn't an integer.".format(base_text))
+        print("\nError: This isn't an integer.")
     finally:
         print("\nDone.")
 
